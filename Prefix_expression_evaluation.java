@@ -1,12 +1,14 @@
 import java.util.*;
-
-//
+/*
+2008-37:Prefix expression evaluation
+correct(1.00)
+ */
 public class Prefix_expression_evaluation {
     public static void main(String[] argv){
 
         Scanner scanner=new Scanner(System.in);
         while(true){
-            Stack<Integer> stack=new Stack<>();
+            Stack<Integer> stack=new Stack<Integer>();
             boolean ck=true;
             String line=scanner.nextLine();
             if(line.equals("."))break;
