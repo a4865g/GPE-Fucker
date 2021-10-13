@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class main{
-	public static void main(String[] argv){
+	public static void main(String[] argvs){
 		Scanner sc=new Scanner(System.in);
 		while(sc.hasNext()){
 			long a=sc.nextLong();
